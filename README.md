@@ -3,7 +3,7 @@
 - age.py
 
 ```
- ⚙ bl@bl-mac  ~/Documents/projects/python-garbage   master  ./age.py 
+# bl @ bl-mac in ~/Documents/projects/python-garbage on git:master o [22:49:52]
 What is your name? Bryan
 What is your age? 32
 
