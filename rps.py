@@ -2,15 +2,15 @@
 from random import randint
 
 print('')
-player=input('Rock (1), Paper (2), Scissors (3):? ')
-print('')
+player=input('Rock (r), Paper (p), Scissors (s):? ')
 
-if player == 1:
-    person = 'Rock'
-elif player == 2:
-    person = 'Paper'
-elif player == 3:
-    person = 'Scissors'
+if player == 'r':
+    print('Rock', end=' ')
+elif input == 'p':
+    print('Paper', end=' ')
+elif input == 's':
+    print('Scissors', end=' ')
+
 
 chosen=randint(1,3)
 
@@ -21,4 +21,4 @@ elif chosen == 2:
 elif chosen == 3:
     computer = 'Scissors'
 
-print(player, 'vs', computer)
+print( 'vs', computer)
