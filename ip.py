@@ -2,9 +2,8 @@
 
 import ipaddress
 
-ipHost = str('Host IP/mask: ')
+ipHost = input('Host IP/mask: ')
 
 print('')
-print('Subnet; ' , ipHost.network)
 print('DNS PTR: ', ipaddress.ip_address(ipHost).reverse_pointer)
 print('')
