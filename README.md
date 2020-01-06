@@ -37,4 +37,17 @@ Host IP/mask: 192.168.100.1
 DNS PTR:  1.100.168.192.in-addr.arpa
 ```
 
-``1
+- tcpPing.py
+
+```
+➜  python git:(master) ✗ ./tcpPing.py 
+Network Test
+
+Host: bryanlurer.com
+Port: 443
+Count: 4
+Connected to bryanlurer.com[:443]: seq=1 time=433.58 ms
+Connected to bryanlurer.com[:443]: seq=2 time=227.22 ms
+Connected to bryanlurer.com[:443]: seq=3 time=227.75 ms
+Connected to bryanlurer.com[:443]: seq=4 time=222.42 ms
+```

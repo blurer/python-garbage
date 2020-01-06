@@ -2,7 +2,7 @@
 
 name=input('What is your name? ')
 age=input('What is your age? ')
-dog=int(age) * 8
+dog=int(age)/8
 age2050=int(age)-2019+2050
 ageNow=2019-int(age)
 

@@ -2,11 +2,13 @@
 
 from tcping import Ping
 
-print('Network Test')
 print('')
+print('TCP Ping Test')
+print('------------------')
 pingHost = input('Host: ')
-pingPort = input('Port: ')
+pingPort = input('TCP Port: ')
 pingCount = input('Count: ')
-
+print('------------------')
+print('')
 ping = Ping(pingHost, pingPort)
 ping.ping(int(pingCount))
