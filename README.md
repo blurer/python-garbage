@@ -37,3 +37,4 @@ Host IP/mask: 192.168.100.1
 DNS PTR:  1.100.168.192.in-addr.arpa
 ```
 
+``1
