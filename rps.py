@@ -4,12 +4,12 @@ from random import randint
 print('')
 player=input('Rock (r), Paper (p), Scissors (s):? ')
 
-if player == 'r':
-    print('Rock', end=' ')
-elif input == 'p':
-    print('Paper', end=' ')
-elif input == 's':
-    print('Scissors', end=' ')
+if player == "r":
+    player = 'Rock'
+elif player == "p":
+    player = 'Paper'
+elif player == "s":
+    player = 'Scissors'
 
 
 chosen=randint(1,3)
@@ -21,4 +21,6 @@ elif chosen == 2:
 elif chosen == 3:
     computer = 'Scissors'
 
-print( 'vs', computer)
+print(player, 'vs', computer)
+if player == computer:
+    print('DRAW')

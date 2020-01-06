@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 name=input('What is your name? ')
 age=input('What is your age? ')
